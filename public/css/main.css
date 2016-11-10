@@ -1,0 +1,218 @@
+.secondNav{
+	background-color: #000;
+    min-height: 40px;
+    position: relative;
+    top: 70px;
+    z-index: 20;
+    opacity: 0.8;
+    border-color: none;
+    /*margin-bottom: 0 !important;*/
+}
+.navbar2 {
+  min-height: 60px !important;
+  margin-bottom: 0px !important;
+  margin-top: 10px;
+}
+
+.duke-menu-font{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;	
+}
+
+.duke-menu-font > li > a {
+	color: #f7f1ea !important;
+}
+
+.duke-menu-font > li > a:hover, 
+.duke-menu-font > li > a:focus {
+	color: #fff !important;
+	background-color: transparent !important;
+}
+
+.sub-menu-font{
+	font-family: "Verdana";
+	position: relative;
+	float: left;
+	font-size: 11px;
+	color: #fff;
+	padding-top: 12px;
+	display:inline-block;
+}
+
+.sign-in-pos{
+	position: relative;
+	float: right;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.my-btn{
+	margin-top: 4px;
+	padding: 6px !important;
+}
+
+
+
+.sign-in-look {
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+.sign-in-look:focus,
+.sign-in-look.focus {
+  color: #7adbc8 !imporant;
+}
+
+.sign-in-look:hover {
+  color: blue !important;
+  background-color: #333 !important;
+  color: #7adbc8 !important;
+}
+
+.sign-in-look:active,
+.sign-in-look.active,
+.open > .dropdown-toggle.sign-in-look {
+  color: #7adbc8;
+  background-color: #333;
+  opacity: 0.9;
+  border-color: black;
+}
+
+.sign-in-look:active:hover,
+.sign-in-look.active:hover,
+.open > .dropdown-toggle.sign-in-look:hover,
+.sign-in-look:active:focus,
+.sign-in-look.active:focus,
+.open > .dropdown-toggle.sign-in-look:focus,
+.sign-in-look:active.focus,
+.sign-in-look.active.focus,
+.open > .dropdown-toggle.sign-in-look.focus {
+  color: #7adbc8;
+  background-color: #333;
+  opacity: 0.9;
+  border-color: black;
+}
+
+.sign-in-look:active,
+.sign-in-look.active,
+.open > .dropdown-toggle.sign-in-look {
+  background-image: none;
+}
+.sign-in-look.disabled:hover,
+.sign-in-look[disabled]:hover,
+fieldset[disabled] .sign-in-look:hover,
+.sign-in-look.disabled:focus,
+.sign-in-look[disabled]:focus,
+fieldset[disabled] .sign-in-look:focus,
+.sign-in-look.disabled.focus,
+.sign-in-look[disabled].focus,
+fieldset[disabled] .sign-in-look.focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.my-dropdown {
+	position: absolute !important;
+	top: 100% !important;
+	background-color: #000 !important;
+	opacity: 0.8 !important;
+  	-webkit-background-clip: padding-box !important;
+          background-clip: padding-box !important;     
+}
+
+.my-dropdown > li > a {
+	color: #fff !important;
+}
+
+.my-dropdown > li > a:hover,
+.my-dropdown > li > a:focus {
+	color: #000 !important;
+}
+.car-selector {
+	text-align: center;
+	height: 100%;
+	background: linear-gradient(135deg, #d9c8c8, #9dbed6, #999);
+	/*background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=#99999900&noise=626262&density=33&opacity=12);*/ 
+	opacity: 0.88;
+	width: 340px;
+	border: 1px solid #222;
+}
+
+.car-box {
+	position: absolute;
+	float: left;
+	top: 42px;
+	left: 50%
+	width: 100%;
+	z-index: 16;
+	-webkit-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.7);
+	-moz-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.7);
+	box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.7);
+}
+
+.more-form-control {
+    margin-top:5px;
+	width: 60%;
+	height: 30px;
+	display: inline-block;
+	padding: 6px 12px;
+	text-align: center;
+}
+
+.sel-container {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+}
+
+.sel-container2 {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left;
+}
+
+.sel-container3 {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.input-group {
+  cursor: pointer;
+}
+
+.lastSec {
+	padding-top: 20px;
+	background: #f0f0f0;
+	margin-top: 50px;
+	margin-bottom: 20px;
+   	box-shadow: inset 0 0 10px #000000;
+}
+
+.final-sell {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.abba {
+	color: #7adbc8;
+}
+
+.foots {
+	background-color: #990000;
+	height: 112px;
+	bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .car-selector {
+    width: 330px;
+}
+  
+@media (max-width: 359px) {
+  .car-selector {
+    width: 290px;
+}
+
