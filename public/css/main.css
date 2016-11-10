@@ -206,6 +206,20 @@ fieldset[disabled] .sign-in-look.focus {
 	bottom: 0;
 }
 
+.footer-content {
+	padding-top: 20px;	
+}
+
+.duke-footer {
+	font-family:"Tahoma";
+	font-size: 16px;
+	color: #fff;
+}
+
+.fa {
+	padding-right: 5px !important;
+}
+
 @media (max-width: 768px) {
   .car-selector {
     width: 330px;
